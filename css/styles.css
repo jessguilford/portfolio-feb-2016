@@ -46,6 +46,10 @@
   text-align: center;
 }
 
+.portfolio-gallery {
+  margin-top: 15px;
+}
+
 .portfolio-gallery::after {
   content: "";
   display: table;
@@ -56,4 +60,17 @@
   float: left;
   width: 31.33%;
   margin: 0 1%;
+}
+
+.portfolio-item {
+  width: 100%;
+  margin-bottom: 23px;
+}
+
+.vert-item {
+  height: 400px;
+}
+
+.horiz-item {
+  height: 250px;
 }
