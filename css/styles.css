@@ -1,0 +1,59 @@
+/* Wireframing */
+
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+
+.col, .header{
+  min-height: 200px;
+}
+
+/* End Wireframing */
+
+/*Nav*/
+
+.nav {
+  overflow: auto;
+}
+
+.title {
+  float: left;
+}
+
+.navlinks {
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+.navlinks li {
+  float: left;
+  margin: 0 0 0 10px;
+  list-style: none;
+}
+
+/* Body*/
+
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 2%;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+}
+
+.portfolio-gallery::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col {
+  float: left;
+  width: 31.33%;
+  margin: 0 1%;
+}
