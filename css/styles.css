@@ -2,7 +2,7 @@
 
 *:not(body):not(html) {
   box-sizing:border-box;
-  border:1px dashed #000;
+  /*border:1px dashed #000;*/
 }
 
 .col, .header{
@@ -10,7 +10,7 @@
 }
 
 .portfolio-item {
-  background-color: #fefeef;
+  background-color: #febaef;
 }
 
 /* End Wireframing */
@@ -37,6 +37,11 @@
   list-style: none;
 }
 
+h3 {
+  margin: 0;
+  font-weight: normal;
+}
+
 /* Body*/
 
 .container {
@@ -45,9 +50,17 @@
   padding: 2%;
 }
 
-.header {
+.masthead {
   width: 100%;
   text-align: center;
+}
+
+#main-logo {
+  margin: 10px auto;
+}
+
+h1 {
+  margin: 0 0 10% 0;
 }
 
 .portfolio-gallery {
