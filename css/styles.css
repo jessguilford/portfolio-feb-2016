@@ -9,6 +9,10 @@
   min-height: 200px;
 }
 
+.portfolio-item {
+  background-color: #fefeef;
+}
+
 /* End Wireframing */
 
 /*Nav*/
@@ -73,4 +77,37 @@
 
 .horiz-item {
   height: 250px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 976px) and (min-width: 541px) {
+  .col {
+    width: 48%;
+  }
+
+  .col3 {
+    width: 100%;
+    float: none;
+    overflow: auto;
+  }
+
+  .col3 .vert-item {
+    float: left;
+    width: 48%;
+    margin: 0 1% 0 0;
+  }
+
+  .col3 .horiz-item {
+    float: left;
+    width: 48%;
+    margin: 0 0 0 1%;
+  }
+}
+
+@media screen and (max-width:540px) {
+  .col {
+    float: none;
+    width: 100%;
+  }
 }
