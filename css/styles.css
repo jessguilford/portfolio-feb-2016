@@ -50,6 +50,7 @@ h3 {
 body {
   font-family: sans-serif;
   color: #242d33;
+  /*color: #584d45;*/
   background-color: #fefcf7;
 }
 
@@ -96,11 +97,26 @@ h1 {
   width: 100%;
   margin-bottom: 23px;
   position: relative;
-  background-color: #efefef;
-  opacity: .6;
+  background-color: #cc0639;
+  /*background-image: url("../images/wov.png");*/
+  opacity: .8;
+}
+
+.item-label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20%;
+  background-color: #000;
+  border-top: 3px solid #fff;
+  color: #fff;
+  opacity: .9;
+  padding: 15px;
 }
 
 .portfolio-item:hover {
+  display: table;
   opacity: 1;
   -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -111,11 +127,15 @@ h1 {
 .portfolio-item img {
   width: 70%;
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -25%);
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
+}
+
+.portfolio-item p {
+  margin: 0;
 }
 
 .vert-item {
@@ -127,6 +147,12 @@ h1 {
 }
 
 /* Media Queries */
+
+@media screen and (max-width: 976px) {
+  .portfolio-item {
+    opacity: 1;
+  }
+}
 
 @media screen and (max-width: 976px) and (min-width: 541px) {
   .col {
