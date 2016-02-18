@@ -2,7 +2,7 @@
 
 *:not(body):not(html) {
   box-sizing:border-box;
-  /*border:1px dashed #000;*/
+  /*border:1px dashed grey;*/
 }
 
 .col, .header{
@@ -97,9 +97,9 @@ h1 {
   width: 100%;
   margin-bottom: 23px;
   position: relative;
-  background-color: #cc0639;
-  /*background-image: url("../images/wov.png");*/
-  opacity: .8;
+  /*background-color: #cc5278;*/
+  background-image: url("../images/wov2.png");
+  opacity: .9;
 }
 
 .item-label {
@@ -107,12 +107,33 @@ h1 {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 20%;
-  background-color: #000;
+  height: 50px;
+  background-color: #363636;
   border-top: 3px solid #fff;
   color: #fff;
-  opacity: .9;
-  padding: 15px;
+  opacity: 1;
+  padding: 7px 5px 5px 10px;
+}
+
+.item-label h1 {
+  font-family: sans-serif;
+  font-size: .8em;
+  margin: 0;
+  padding: 0;
+}
+
+.item-label p {
+  font-size: .8em;
+}
+
+.item-label::after {
+  content: "+";
+  font-size: 1.3em;
+  height: 10px;
+  margin: 25px 20px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 .portfolio-item:hover {
@@ -140,6 +161,8 @@ h1 {
 
 .vert-item {
   height: 400px;
+  background-image: none;
+  background-color: #396174;
 }
 
 .horiz-item {
