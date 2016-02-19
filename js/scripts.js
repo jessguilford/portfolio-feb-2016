@@ -1,6 +1,7 @@
 $(document).ready(function() {
   $(".item-label").click(function(event) {
-    $("#info-" + this.id).slideToggle(400);
+    $("#info-" + this.id).fadeToggle(200);
+    $(".item-x-toggle").toggleClass("item-x-rotated");
   });
 
   $(".item-info").click(function() {

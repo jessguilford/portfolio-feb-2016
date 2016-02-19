@@ -75,6 +75,10 @@ h1 {
   font-family: 'Sarina', sans-serif;
 }
 
+a {
+  color: #363636;
+}
+
 /* Gallery */
 
 .portfolio-gallery {
@@ -145,14 +149,23 @@ h1 {
   margin: 0;
 }
 
-.item-label::after {
-  content: "+";
+.item-x-toggle {
+  /*content: "+";*/
   font-size: 1.3em;
-  height: 10px;
-  margin: 25px 20px;
+  /*height: 20px;
+  width: 20px;*/
+  /*margin: 25px 20px;*/
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 20px;
+  bottom: 10px;
+}
+
+.item-x-rotated {
+  -webkit-transform: rotate(45deg);  /* Chrome, Safari 3.1+ */
+    -moz-transform: rotate(45deg);  /* Firefox 3.5-15 */
+    -ms-transform: rotate(45deg);  /* IE 9 */
+    -o-transform: rotate(45deg);  /* Opera 10.50-12.00 */
+    transform: rotate(45deg);  /* Firefox 16+, IE 10+, Opera 12.10+ */
 }
 
 .item-label a {
@@ -167,7 +180,7 @@ h1 {
   width: 100%;
   height: 100%;
   background-color: #fff;
-  border-top: 3px solid #fff;
+  border: 2px solid #ededed;
   color: #363636;
   opacity: 1;
   padding: 7px 5px 5px 10px;
