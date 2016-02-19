@@ -14,13 +14,24 @@
   /*background-color: #cc0639;*/
 }
 
+/* colors
+Darkest Blue: #242d33;
+Parchment: #fefcf7;
+
 /* End Wireframing */
 
 /*Nav*/
 
 .nav {
   overflow: auto;
-  padding-top: 5px;
+  padding: 1%;
+  margin: 0 0 140px 0;
+  width: 100%;
+  font-family: Gill Sans / Gill Sans MT, sans-serif;
+  text-transform: uppercase;
+  background-color: #fefcf7;
+  color: #242d33;
+  border: 1px solid #242d33;
 }
 
 .title {
@@ -57,12 +68,14 @@ body {
 .container {
   width: 90%;
   margin: auto;
-  padding: 2%;
+  padding: 0 2% 2% 2%;
 }
 
 .masthead {
   width: 100%;
+  min-height: 150px;
   text-align: center;
+  margin: 0;
 }
 
 #main-logo {
@@ -70,9 +83,18 @@ body {
 }
 
 h1 {
-  /*margin: 0 0 9% 0;*/
+  margin: 45px 0 0 0;
   font-size: 3em;
   font-family: 'Vollkorn Regular', sans-serif;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: Gill Sans / Gill Sans MT, sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: .75em;
+  letter-spacing: 1px;
 }
 
 a {
@@ -83,6 +105,7 @@ a {
 
 .portfolio-gallery {
   margin-top: 10px;
+  font-family: Gill Sans / Gill Sans MT, sans-serif;
 }
 
 .portfolio-gallery::after {
