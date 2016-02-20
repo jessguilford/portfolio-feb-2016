@@ -170,7 +170,7 @@ a {
   width: 100%;
   margin-bottom: 23px;
   position: relative;
-  background-color: #cc5278;
+  background-color: #242d33;
   opacity: .9;
 }
 
@@ -259,6 +259,17 @@ a {
   height: 250px;
 }
 
+.stripe {
+  width: 2500px;
+  height: 150px;
+  background-color: #FFBC9E;
+  position: absolute;
+  bottom: 0;
+  right: -60%;
+  -webkit-transform: rotate(45deg);
+  z-index: -1;
+}
+
 /* About Page Items */
 
 .about-main {
@@ -285,6 +296,12 @@ a {
 @media screen and (max-width: 976px) {
   .portfolio-item {
     opacity: 1;
+  }
+
+  .stripe {
+    width: 1000px;
+    bottom: 50%;
+    right: -40%;
   }
 }
 
@@ -314,6 +331,12 @@ a {
     width: 48%;
     margin: 0 0 0 1%;
   }
+
+  .stripe {
+    width: 1000px;
+    bottom: 40%;
+    right: -40%;
+  }
 }
 
 @media screen and (max-width:540px) {
@@ -328,6 +351,7 @@ a {
 
   .nav {
     border: 0;
+    background-color: rgba(255, 0, 0, 0);
   }
 
   .navlinks {
@@ -335,11 +359,17 @@ a {
     text-align: center;
   }
 
+  .navlinks a {
+    text-decoration: none;
+  }
+
   .navlinks li {
+    min-height: 30px;
     float: none;
     margin-left: 0;
     margin-bottom: 8px;
     font-size: 1.2em;
+    background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid #242d33;
   }
 
@@ -350,6 +380,12 @@ a {
   .article {
     width: 100%;
     margin: 0 auto;
+  }
+
+  .stripe {
+    width: 1000px;
+    bottom: 55%;
+    right: -60%;
   }
 }
 
