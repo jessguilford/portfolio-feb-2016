@@ -49,12 +49,6 @@ Parchment: #fefcf7;
   list-style: none;
 }
 
-h3 {
-  margin: -4px 0 0 0;
-  font-size: 1.1em;
-  font-weight: normal;
-}
-
 /* Body*/
 
 body {
@@ -64,19 +58,44 @@ body {
   background-color: #fefcf7;
 }
 
+h1 {
+  margin: 45px 0 0 0;
+  font-size: 3em;
+  font-family: 'Vollkorn Regular', sans-serif;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: Gill Sans / Gill Sans MT, sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: .75em;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-family: Gill Sans / Gill Sans MT, sans-serif;
+  text-transform: uppercase;
+  margin: -4px 0 0 0;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+a {
+  color: #363636;
+}
+
 .container {
   width: 90%;
   margin: auto;
   padding: 0 2% 2% 2%;
 }
 
-.center-caps {
-  text-align: center;
-  display: block;
+.caps {
   text-transform: uppercase;
 }
 
-.center-text {
+.center {
   text-align: center;
 }
 
@@ -104,25 +123,6 @@ body {
   text-align: center;
   text-transform: uppercase;
   min-height: 20px;
-}
-
-h1 {
-  margin: 45px 0 0 0;
-  font-size: 3em;
-  font-family: 'Vollkorn Regular', sans-serif;
-  font-weight: normal;
-}
-
-h2 {
-  font-family: Gill Sans / Gill Sans MT, sans-serif;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: .75em;
-  letter-spacing: 1px;
-}
-
-a {
-  color: #363636;
 }
 
 /* Gallery */
@@ -235,6 +235,12 @@ a {
 
 .horiz-item {
   height: 250px;
+}
+
+/* About Page Items */
+
+.about-main {
+  width: 60%;
 }
 
 /* Media Queries */
