@@ -257,6 +257,21 @@ a {
   width: 60%;
 }
 
+/* Articles */
+
+.article {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.article h1 {
+  font-size: 2em;
+}
+
+.article h2 {
+  margin-bottom: 40px;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 976px) {
