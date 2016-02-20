@@ -81,6 +81,20 @@ h3 {
   font-weight: normal;
 }
 
+.articles-main a {
+  font-size: 1em;
+  font-family: 'Vollkorn Regular', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.articles-main p {
+  margin-bottom: 25px;
+  font-size: .9em;
+  font-family: 'Vollkorn Regular', sans-serif;
+  font-style: italic;
+}
+
 a {
   color: #363636;
 }
