@@ -13,7 +13,6 @@
   /*background-color: #febaef;*/
   /*background-color: #cc0639;*/
 }
-
 /* colors
 Darkest Blue: #242d33;
 Parchment: #fefcf7;
@@ -69,6 +68,12 @@ body {
   width: 90%;
   margin: auto;
   padding: 0 2% 2% 2%;
+}
+
+.center-caps {
+  text-align: center;
+  display: block;
+  text-transform: uppercase;
 }
 
 .masthead {
@@ -188,11 +193,7 @@ a {
 }
 
 .item-x-toggle {
-  /*content: "+";*/
   font-size: 1.3em;
-  /*height: 20px;
-  width: 20px;*/
-  /*margin: 25px 20px;*/
   position: absolute;
   right: 20px;
   bottom: 10px;
