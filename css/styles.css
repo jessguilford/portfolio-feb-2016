@@ -263,15 +263,8 @@ a {
   height: 250px;
 }
 
-.stripe {
-  width: 2500px;
-  height: 150px;
-  background-color: #FFBC9E;
-  position: absolute;
-  bottom: 0;
-  right: -60%;
-  -webkit-transform: rotate(45deg);
-  z-index: -1;
+#contact-page {
+  display: none;
 }
 
 /* About Page Items */
@@ -296,16 +289,20 @@ a {
 }
 
 /* Media Queries */
-
+/* media query for all screens that are smaller than laptops */
 @media screen and (max-width: 976px) {
   .portfolio-item {
     opacity: 1;
   }
 
-  .stripe {
-    width: 1000px;
-    bottom: 50%;
-    right: -40%;
+  .about-main {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .article {
+    width: 90%;
+    margin: 0 auto;
   }
 }
 
@@ -411,7 +408,7 @@ a {
 }
 
 /* Limit grid sizing on extra large screens */
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1300px) {
   .container {
     max-width: 1333px;
   }
